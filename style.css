@@ -1,10 +1,11 @@
 *{
+    margin: 0%;
     font-family: "Inter", sans-serif;
 }
 
 #titulo-sessaosuperior{
    
-    margin-left: 50px;
+    margin-left: 50px; 
 }
 
 #titulo-textosuperior{
@@ -12,8 +13,21 @@
 }
 
 #sessao-um{
-    background-color: #303030;
-    color:aliceblue;
+    background-color: #303030; 
+    color:aliceblue; 
+    padding-top: 90PX;
+    padding-bottom: 50PX;
 }
 
-    
+#sessao-dois{
+    background: #F9F9F9;
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.comentario{
+    margin: 45px;
+    margin-left: auto;
+}
