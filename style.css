@@ -1,3 +1,19 @@
-#sessao_um{
-    background-color: black
+*{
+    font-family: "Inter", sans-serif;
 }
+
+#titulo-sessaosuperior{
+   
+    margin-left: 50px;
+}
+
+#titulo-textosuperior{
+    margin-left: 50px;
+}
+
+#sessao-um{
+    background-color: #303030;
+    color:aliceblue;
+}
+
+    
