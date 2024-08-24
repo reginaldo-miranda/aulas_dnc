@@ -19,26 +19,54 @@
     padding-bottom: 50PX;
 }
 
-#secao-dois{
-    background: #F9F9F9;
+#secao-dois{   /* carrossel */
+    background-color:#F9F9F9;
+    padding: 30px;
+      
+}
+#titulo-carrossel{
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-card{
+    margin-top: 15px;
+    margin-left: 50px;
     display:grid;
     grid-auto-flow: column;
-    columns: auto;
+   
+} 
 
+#seta-esquerda{
+   display: none; 
 }
 
-.comentario{
-    margin: 45px;
-    margin-left: auto;
+.seta{
+    margin-top: 30px;
+    
 }
+
+#comentario3{
+    display: none;
+} 
+
+.card{
+    background: #f2f7f6;
+    border-radius: 5px 5px 5px 5px;
+    width: 400px;
+    padding: 10px; 
+     
+    
+} 
 
 #secao-tres{
    display: grid;
    grid-auto-flow: column;
    columns: auto;  
    font-size: 12px;
-   margin-top: 30px;
+   margin-top: 20px;
    margin-left: 40px;
+   margin-bottom: 20px;
    
 }
 
